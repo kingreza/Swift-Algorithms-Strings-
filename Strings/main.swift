@@ -8,5 +8,6 @@
 
 import Foundation
 
-println("Hello, World!")
+var master = StringMaster();
 
+println(master.RotateStringRightBy("abcdefghijklmnop", rotateBy: 2));
