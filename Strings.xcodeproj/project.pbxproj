@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		579E169E1B36943100A5DBAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E169D1B36943100A5DBAC /* main.swift */; };
-		579E16A51B36945E00A5DBAC /* IStringMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E16A41B36945E00A5DBAC /* IStringMaster.swift */; };
+		579E16A51B36945E00A5DBAC /* StringMastering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E16A41B36945E00A5DBAC /* StringMastering.swift */; };
 		579E16A71B36947900A5DBAC /* StringMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E16A61B36947900A5DBAC /* StringMaster.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		579E169A1B36943100A5DBAC /* Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strings; sourceTree = BUILT_PRODUCTS_DIR; };
 		579E169D1B36943100A5DBAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		579E16A41B36945E00A5DBAC /* IStringMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IStringMaster.swift; sourceTree = "<group>"; };
+		579E16A41B36945E00A5DBAC /* StringMastering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMastering.swift; sourceTree = "<group>"; };
 		579E16A61B36947900A5DBAC /* StringMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMaster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				579E169D1B36943100A5DBAC /* main.swift */,
-				579E16A41B36945E00A5DBAC /* IStringMaster.swift */,
+				579E16A41B36945E00A5DBAC /* StringMastering.swift */,
 				579E16A61B36947900A5DBAC /* StringMaster.swift */,
 			);
 			path = Strings;
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579E16A51B36945E00A5DBAC /* IStringMaster.swift in Sources */,
+				579E16A51B36945E00A5DBAC /* StringMastering.swift in Sources */,
 				579E16A71B36947900A5DBAC /* StringMaster.swift in Sources */,
 				579E169E1B36943100A5DBAC /* main.swift in Sources */,
 			);
@@ -214,6 +214,7 @@
 		579E16A21B36943100A5DBAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -221,6 +222,7 @@
 		579E16A31B36943100A5DBAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -244,6 +246,7 @@
 				579E16A31B36943100A5DBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

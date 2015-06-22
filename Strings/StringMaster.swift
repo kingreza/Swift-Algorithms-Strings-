@@ -8,10 +8,10 @@
 
 import Foundation
 
-class StringMaster:IStringMaster {
+public class StringMaster:StringMastering {
     
     
-    func ReverseCharacters(string: String) -> String
+    public func reverseCharacters(string: String) -> String
     {
         var characters = Array(string);
         var result = [Character]();
@@ -23,7 +23,7 @@ class StringMaster:IStringMaster {
         return String(result)
     }
     
-    func ReverseCharactersInPlace(string: String) -> String
+    public func reverseCharactersInPlace(string: String) -> String
     {
         var characters = Array(string)
         for var index = 0; index < characters.count/2; index++
@@ -37,7 +37,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func ReverseWords(string: String) -> String
+    public func reverseWords(string: String) -> String
     {
         var characters = Array(string)
         var buffer = [Character]();
@@ -67,7 +67,7 @@ class StringMaster:IStringMaster {
         return result;
     }
     
-    func ReverseWordsInPlace(string: String) -> String
+    public func reverseWordsInPlace(string: String) -> String
     {
         var characters = Array(string)
         for var index = 0; index < characters.count/2; index++
@@ -118,7 +118,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func ReverseWordsBasedOnSeparator(string: String, separator: Character) -> String
+    public func reverseWordsBasedOnSeparator(string: String, separator: Character) -> String
     {
         var characters = Array(string)
         var buffer = [Character]();
@@ -148,7 +148,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func IsPalindrome(string: String, ignoreCase: Bool, ignoreSpace: Bool) -> Bool
+    public func isPalindrome(string: String, ignoreCase: Bool, ignoreSpace: Bool) -> Bool
     {
         var characters = Array(string.lowercaseString);
         
@@ -163,7 +163,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func AreAnagrams(firstString: String, secondString: String) -> Bool
+    public func areAnagrams(firstString: String, secondString: String) -> Bool
     {
         var hashForFirstString = Dictionary<Character, Int>();
         var hashForSecondString = Dictionary<Character, Int>();
@@ -206,7 +206,7 @@ class StringMaster:IStringMaster {
         return true;
     }
     
-    func AreAnagramsUseSort(firstString: String, secondString: String) -> Bool
+    public func areAnagramsUseSort(firstString: String, secondString: String) -> Bool
     {
         var firstStringCharacters = Array(firstString);
         var secondStringCharacters = Array(secondString);
@@ -231,7 +231,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func ReturnDuplicateCharacters(string: String) -> [Character]
+    public func returnDuplicateCharacters(string: String) -> [Character]
     {
         var characters = Array(string)
         var hash = Dictionary<Character, Int>();
@@ -261,7 +261,7 @@ class StringMaster:IStringMaster {
     
     
     
-    func ReturnCharactersRepeated(string: String, repeatedCount: Int) -> [Character]
+    public func returnCharactersRepeated(string: String, repeatedCount: Int) -> [Character]
     {
         var characters = Array(string)
         var hash = Dictionary<Character, Int>();
@@ -289,7 +289,7 @@ class StringMaster:IStringMaster {
         return result;
     }
     
-    func ReturnUniqueCharacters(string: String) -> [Character]
+    public func returnUniqueCharacters(string: String) -> [Character]
     {
         var characters = Array(string)
         var hash = Dictionary<Character, Int>();
@@ -317,7 +317,7 @@ class StringMaster:IStringMaster {
         return result;
     }
     
-    func ReturnFirstNonRepeatedCharacter(string: String) -> Character?
+    public func returnFirstNonRepeatedCharacter(string: String) -> Character?
     {
         var characters = Array(string)
         var hash = Dictionary<Character, (Int, Int)>();
@@ -356,7 +356,7 @@ class StringMaster:IStringMaster {
         }
     }
     
-    func CountOccuranceOfCharacter(string:String, character: Character) ->Int
+    public func countOccuranceOfCharacter(string:String, character: Character) ->Int
     {
         var characters = Array(string)
         var result = 0
@@ -372,12 +372,12 @@ class StringMaster:IStringMaster {
         return result;
     }
     
-    func CountOccuranceOfCharacterUsingFilter(string:String, character: Character) ->Int
+    public func countOccuranceOfCharacterUsingFilter(string:String, character: Character) ->Int
     {
         return Array(string).filter({$0 == character}).count;
     }
     
-    func ReturnAllPermutation(string: String) -> [String]
+    public func returnAllPermutation(string: String) -> [String]
     {
         var set = generatePerm(string);
         var result = [String]();
@@ -388,7 +388,7 @@ class StringMaster:IStringMaster {
         return result;
     }
     
-    func Contains(string: String, containingString: String) -> Bool
+    public func contains(string: String, containingString: String) -> Bool
     {
         var characters = Array(string)
         var searchedCharacters = Array(containingString);
@@ -420,7 +420,7 @@ class StringMaster:IStringMaster {
         return false;
     }
     
-    func ReturnMostCommonCharacter(string: String) -> Character
+    public func returnMostCommonCharacter(string: String) -> Character
     {
         var characters = Array(string)
         var hash = Dictionary<Character, Int>();
@@ -448,7 +448,8 @@ class StringMaster:IStringMaster {
         return maxCharacter;
         
     }
-    func RemoveCharacter(string: String, character:Character) -> String
+    
+    public func removeCharacter(string: String, character:Character) -> String
     {
         var characters = Array(string)
         var result = [Character]()
@@ -464,12 +465,12 @@ class StringMaster:IStringMaster {
         return String(result);
     }
     
-    func RemoveCharacterUsingFilter(string: String, character:Character) -> String
+    public func removeCharacterUsingFilter(string: String, character:Character) -> String
     {
         return String(Array(string).filter({$0 != character}));
     }
     
-    func RemoveCharacterInPlace(string: String, character:Character) -> String
+    public func removeCharacterInPlace(string: String, character:Character) -> String
     {
         
         var characters = Array(string)
@@ -478,6 +479,7 @@ class StringMaster:IStringMaster {
         var totalCharacters = characters.count;
        
         var done = false
+        
         while(i < characters.count && !done)
         {
             while(characters[i] == character && !done)
@@ -503,7 +505,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func ReturnLongestPalindrome(string: String) -> String
+    public func returnLongestPalindrome(string: String) -> String
     {
         var characters = Array(string);
         var i = 0;
@@ -527,7 +529,7 @@ class StringMaster:IStringMaster {
         return String(characters[(longest.0-longest.1)...(longest.0+longest.1-1)]);
     }
     
-    func RotateStringLeftBy(string: String, rotateBy: Int) -> String
+    public func rotateStringLeftBy(string: String, rotateBy: Int) -> String
     {
         var characters = Array(string)
         var rotateBy = rotateBy % characters.count;
@@ -548,7 +550,7 @@ class StringMaster:IStringMaster {
         
     }
     
-    func RotateStringRightBy(string: String, rotateBy: Int) -> String
+    public func rotateStringRightBy(string: String, rotateBy: Int) -> String
     {
         var characters = Array(string)
         var rotateBy = rotateBy % characters.count;

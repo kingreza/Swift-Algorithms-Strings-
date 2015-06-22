@@ -10,4 +10,4 @@ import Foundation
 
 var master = StringMaster();
 
-println(master.RotateStringRightBy("abcdefghijklmnop", rotateBy: 2));
+println(master.rotateStringRightBy("abcdefghijklmnop", rotateBy: 2));

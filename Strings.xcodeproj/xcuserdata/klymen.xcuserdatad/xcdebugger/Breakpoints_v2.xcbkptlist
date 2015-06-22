@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "481"
             endingLineNumber = "481"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "482"
             endingLineNumber = "482"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "483"
             endingLineNumber = "483"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -63,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "491"
             endingLineNumber = "491"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -79,7 +79,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "493"
             endingLineNumber = "493"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -95,7 +95,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "485"
             endingLineNumber = "485"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -111,7 +111,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "492"
             endingLineNumber = "492"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -127,7 +127,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "487"
             endingLineNumber = "487"
-            landmarkName = "RemoveCharacterInPlace(_:character:)"
+            landmarkName = "removeCharacterInPlace(_:character:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -143,7 +143,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "526"
             endingLineNumber = "526"
-            landmarkName = "ReturnLongestPalindrome(_:)"
+            landmarkName = "returnLongestPalindrome(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -159,7 +159,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "527"
             endingLineNumber = "527"
-            landmarkName = "ReturnLongestPalindrome(_:)"
+            landmarkName = "returnLongestPalindrome(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -189,7 +189,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "521"
             endingLineNumber = "521"
-            landmarkName = "ReturnLongestPalindrome(_:)"
+            landmarkName = "returnLongestPalindrome(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -205,7 +205,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "547"
             endingLineNumber = "547"
-            landmarkName = "RotateStringLeftBy(_:rotateBy:)"
+            landmarkName = "rotateStringLeftBy(_:rotateBy:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -221,7 +221,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "533"
             endingLineNumber = "533"
-            landmarkName = "RotateStringLeftBy(_:rotateBy:)"
+            landmarkName = "rotateStringLeftBy(_:rotateBy:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -237,7 +237,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "569"
             endingLineNumber = "569"
-            landmarkName = "RotateStringRightBy(_:rotateBy:)"
+            landmarkName = "rotateStringRightBy(_:rotateBy:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
