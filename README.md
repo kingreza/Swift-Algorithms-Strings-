@@ -2,17 +2,15 @@
 String manipulation algorithms in Swift [Currently using Swift 1.2]
 
 ## Details
-The following project implements a few common (and some not so common) string manipulation algorithms in swift. You probably have seen some of these implementations in a tutorial or during a technical interview. I believe anyone wishing to sharpen their swift skills or get some practice before an interview could find this useful. 
+The following project implements a few common (and some not so common) string manipulation algorithms in swift. You probably have seen some of these implementations in a tutorial or during a technical interview. Anyone wishing to sharpen their swift skills or get some practice before an interview could find this useful. 
 
 **This project is not fully implemented or tested. There are quite a few TODOs here and there...**
 
-**This project is currently using an iOS game template. This will change once I finish implementing all the algorithms.**
-
 These algorithms do not use built in functionalities for string manipulation. Everything is built from the ground up using basic swift types and data structures.
 
-All functions (except for one) are atomic in nature. You can copy and paste any of them, and they work as expected.
+All functions (except for one) are atomic in nature and are not dependant on each other. You can copy and paste any of them, and they work as expected.
 
-If a problem can be solved using higher functions, then the algorithm is implemented twice: Once with the basic solution and once with higher functions.
+If a problem can be solved using one of Swift's higher order functions like map, filter or reduce, then the algorithm is implemented twice: Once with the basic solution and once with higher functions. Although there is room to expand on this currently, only the most evident algorithms have the two implementations.
 
 Generally I will pick readability and simplicity over anything else. The goal is to make these easy to step through and understand. 
 
