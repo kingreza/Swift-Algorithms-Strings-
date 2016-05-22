@@ -78,6 +78,7 @@
 				579E16961B36943100A5DBAC /* Sources */,
 				579E16971B36943100A5DBAC /* Frameworks */,
 				579E16981B36943100A5DBAC /* CopyFiles */,
+				57BA2C4D1CF2338A007104BF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -94,6 +95,8 @@
 		579E16921B36943100A5DBAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Reza Shirazian";
 				TargetAttributes = {
@@ -118,6 +121,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57BA2C4D1CF2338A007104BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		579E16961B36943100A5DBAC /* Sources */ = {
