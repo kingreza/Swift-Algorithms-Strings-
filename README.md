@@ -1,8 +1,10 @@
+[*Note: when I first wrote this I was fairly new to Swift and its conventions. Many of the solutions provided in this example come with a strong C#/Java look and feel. Although they are not technically incorrect, they may not be the 'swift way' of doing things*]
+
 # String-Swift 
 String manipulation algorithms in Swift [Currently using Swift 2.0]
 
 ## Details
-The following project implements a few common (and some not so common) string manipulation algorithms in swift. You probably have seen some of these implementations in a tutorial or during a technical interview. Anyone wishing to sharpen their swift skills or get some practice before an interview could find this useful.  [*Note: when I first wrote this I was fairly new to Swift and its conventions. Many of the solutions provided in this example come with a strong C#/Java look and feel. Although they are not technically incorrect, they may not be the 'swift way' of doing things*]
+The following project implements a few common (and some not so common) string manipulation algorithms in swift. You probably have seen some of these implementations in a tutorial or during a technical interview. Anyone wishing to sharpen their swift skills or get some practice before an interview could find this useful.  
 
 These algorithms do not use built in functionalities for string manipulation. Everything is built from the ground up using basic swift types and data structures.
 
