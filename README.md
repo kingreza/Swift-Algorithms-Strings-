@@ -1,4 +1,3 @@
-[*Note: when I first wrote this I was fairly new to Swift and its conventions. Many of the solutions provided in this example come with a strong C#/Java look and feel. Although they are not technically incorrect, they may not be the 'swift way' of doing things*]
 
 # String-Swift 
 String manipulation algorithms in Swift [Currently using Swift 2.0]
