@@ -1,4 +1,4 @@
-
+This code is old. Do not use.
 # String-Swift 
 String manipulation algorithms in Swift [Currently using Swift 2.0]
 
